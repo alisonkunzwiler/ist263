@@ -7,7 +7,8 @@
    
     <style>
     body {font-family: Garamond, serif;}
-    p {color: #90d2d8; background-color: #ffecb8;}
+    body {background-color: #ffecb8;}
+    p {color: #90d2d8;}
     h1 {font-size: 3em; color: #f7c297}
     h2 {font-size: 2em; color: #f7c297}
     a {color: #f6a6b2;}
