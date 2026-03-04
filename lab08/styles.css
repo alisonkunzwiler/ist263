@@ -18,7 +18,8 @@
     nav a:hover {background-color: #e3e4e6;}
     .evenrow {background-color: cadetblue}
     .quote {float: right;}
-    .img1 {float: left; margin: 1em}
+    .img1 {float: left; margin: 0em 1em 1em 0em;}
+    .clear {clear: both;}
     </style>
 
 </head>
