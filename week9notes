@@ -1,0 +1,20 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Week 9 Notes</title>
+    <style>
+        p {background-color: blue; color: white;}
+        .one {text-align: center;}
+        .two {margin: 0 auto; width: 50%; text-align: center;}
+    </style>
+</head>
+
+<body>
+    <p class="one">Content 1</p>
+    <p class="two">Content 2</p>
+</body>
+
+</html>
+
