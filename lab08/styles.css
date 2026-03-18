@@ -27,7 +27,8 @@
     .firstrow {display: flex; background-color: #f7c297; padding: 1em; flex-wrap: nowrap;}
     .skillstable {margin: 0 auto; flex-basis: 50%; min-width: 0;}
     .skillsimage {text-align: center; flex-basis: 50%;}
-
+.skillstable { border: 3px solid red; }
+.skillsimage { border: 3px solid blue; }
 
     </style> 
 
