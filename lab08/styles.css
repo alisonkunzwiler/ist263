@@ -25,10 +25,8 @@
     .fb2 {margin-left: 2em;}
     .fb4 {margin-left: 2em;}
     .firstrow {display: flex; background-color: #f7c297; padding: 1em; flex-wrap: nowrap;}
-    .skillstable {margin: 0 auto; flex-basis: 50%; min-width: 0;}
-    .skillsimage {text-align: center; flex-basis: 50%;}
-.skillstable { border: 3px solid red; }
-.skillsimage { border: 3px solid blue; }
+    .skillstable {width: 50%;}
+    .skillsimage {width: 50%;text-align: center;}
 
     </style> 
 
