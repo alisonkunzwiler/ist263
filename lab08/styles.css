@@ -24,12 +24,10 @@
     .box2 {display: flex; background-color: white; padding: 1em; margin: .5em; border-radius: 1em;}
     .fb2 {margin-left: 2em;}
     .fb4 {margin-left: 2em;}
-    .firstrow {display: flex; background-color: #f7c297; padding: 1em; flex-wrap: nowrap;}
-    .skillstable {width: 50%;}
-    .skillsimage {width: 50%;text-align: center;}
-table {
-    width: 100%;
-}
+    .firstrow {display: flex; background-color: #f7c297; padding: 1em;}
+    .skillstable table {margin: 0 auto; flex-basis: 50%;}
+    .skillsimage {text-align: center; flex-basis: 50%;}
+
     </style> 
 
 </head>
