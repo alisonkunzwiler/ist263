@@ -8,6 +8,9 @@
 <style>
     table, th, td {border: 2px solid black}
     h1 {text-align: center;}
+    .firstrow {display: flex; background-color: #f7c297; padding: 1em;}
+    .skillstable table {margin: 0 auto;}
+    .skillsimage {text-align: center; flex-basis: 50%;}
 </style>
 </head>
 
@@ -21,7 +24,8 @@
 
     <h1>My Skills</h1>
     <div class="firstrow">
-        <table class = "skillstable">
+        <div class = "skillstable">
+        <table>
         <caption>My Skills</caption>
         <tr>
             <th>Category</th>
@@ -84,8 +88,11 @@
             <td>Beginner</td>
         </tr>
         </table> 
-
-            <img class = "skillsimage" src="https://peopel-su.github.io/ist263/images/skill_3775447.png" alt="Skills Image">
+        </div>
+        
+        <div class = "skillsimage">
+            <img src="https://peopel-su.github.io/ist263/images/skill_3775447.png" alt="Skills Image">
+        </div>
     </div>
             
      
