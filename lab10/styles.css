@@ -26,12 +26,10 @@
     .fb4 {margin-left: 2em;}
 
     @media only screen and (max-width: 550px) {nav a
-        {display: block; width: 100%; passing: 1em;}
+        {display: block; width: 100%; padding: 1em;}
+        nav span{display:none;}
     }
 
-    @media only screen and (max-width: 550px) {nav a
-        {display: none; }
-    }
 
     </style> 
 
