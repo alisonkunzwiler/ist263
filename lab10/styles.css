@@ -24,6 +24,15 @@
     .box2 {display: flex; flex-wrap: wrap; background-color: white; padding: 1em; margin: .5em; border-radius: 1em;}
     .fb2 {margin-left: 2em;}
     .fb4 {margin-left: 2em;}
+
+    @media only screen and (max-width: 550px) {nav a
+        {display: block; width: 100%; passing: 1em;}
+    }
+
+    @media only screen and (max-width: 550px) {nav a
+        {display: none; }
+    }
+
     </style> 
 
 </head>
