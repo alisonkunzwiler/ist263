@@ -18,7 +18,7 @@
     nav a:hover {background-color: #e3e4e6;}
     .evenrow {background-color: cadetblue}
     .quote {float: right;}
-    .img1 {float: left; margin: 0em 1em 1em 0em; max-width: 100%;}
+    .img1 {max-width: 100%;}
     .clear {clear: both;}
     .box1 {display: flex; background-color: white; padding: 1em; margin: .5em; border-radius: 1em;}
     .box2 {display: flex; background-color: white; padding: 1em; margin: .5em; border-radius: 1em;}
