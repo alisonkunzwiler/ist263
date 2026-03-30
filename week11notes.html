@@ -17,14 +17,17 @@
         function hovery() {
             alert("I'm hovering over this text!");
         }
+        function clicky() {
+            alert("I clicked on a single word.");
+        }
     </script>
 </head>
 
 <body>
     <script>alert('I am sending an alert!');</script>
     <h1 onclick="SecondBlock()">Classic First JavaScript Program</h1>
-    <p onmouseover="hovery">ranodhf asodfasdfo asdf</p>
-    <p>ajsdfhasdna sdfkasdf dsfa </p>
+    <p onmouseover="hovery()">ranodhf asodfasdfo asdf</p>
+    <p>ajsdfhasdna <span onclick="clicky()">sdfkasdf</span> dsfa </p>
 
 </body>
 
