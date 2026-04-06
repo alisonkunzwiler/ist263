@@ -13,10 +13,7 @@
             document.getElementById("arrow").setAttribute("src", "https://peopel-su.github.io/ist263/images/arrow.png")
         }
         function wrongAnswer() {
-            document.getELementById("wrong").innerHTML ="Wrong Answer!"
-        }
-        function rightAnswer() {
-            document.getElementById("correct").innerHTML ="Correct!"
+            document.getElementById("wrong").innerHTML = "<span style='color:red;'> Wrong Answer!</span>"
         }
     </script>
 </head>
@@ -26,7 +23,7 @@
     <img id="arrow" src="https://peopel-su.github.io/ist263/images/arrow.png" alt="arrow icon" onmouseover="change()" onmouseout="changeBack()">
 
     <h1>My JavaScript Quiz </h1>
-    <p>Jaca and JacaScript are the same thing</p>
+    <p>Java and JavaScript are the same thing</p>
     <p onclick="wrongAnswer();" id="wrong">True</p>
     <p onclick="rightAnswer();" id="correct">False</p>
 </body>
