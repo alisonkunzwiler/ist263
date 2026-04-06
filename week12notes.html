@@ -23,7 +23,10 @@
             document.getElementById("firstheader").style.display = "none";
             document.getElementById("lastheader").style.display = "block";
         }
-        
+        function showFirst () {
+            document.getElementById("firstheader").style.display = "block";
+            document.getElementById("lastheader").style.display = "none";
+        }
 
     </script>
 </head>
@@ -38,7 +41,7 @@
     <p onclick="rightAnswer();" id="correct">False</p>
 
     <h1 id="firstheader" onclick="hideFirst()">The First Header</h1>
-    <h1 id="lastheader">The Last Header</h1>
+    <h1 id="lastheader" onclick="showFirst()">The Last Header</h1>
 
 </body>
 </html> 
