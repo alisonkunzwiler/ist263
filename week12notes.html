@@ -19,8 +19,12 @@
             document.getElementById("bluetext").style.color = "#0000FF";
             document.getElementById("bluetext").style.border = "solid 2px #FF00FF";
         }
+        function hideFirst () {
+            document.getElementById("firstheader").style.display = "none";
+            document.getElementById("lastheader").style.display = "block";
+        }
+        
 
-    
     </script>
 </head>
 
@@ -32,5 +36,9 @@
     <p>Java and JavaScript are the same thing</p>
     <p onclick="wrongAnswer();" id="wrong">True</p>
     <p onclick="rightAnswer();" id="correct">False</p>
+
+    <h1 id="firstheader" onclick="hideFirst()">The First Header</h1>
+    <h1 id="lastheader">The Last Header</h1>
+
 </body>
-</html>
+</html> 
