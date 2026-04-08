@@ -24,14 +24,21 @@
      </style>
      <script>
         function hidePics () {
-            document.getElementById("bigimages").style.display = "none";
+            document.getElementById("mercury").style.display = "block";
+            document.getElementById("venus").style.display = "none";
+            document.getElementById("earth").style.display = "none";
+            document.getElementById("mars").style.display = "none";
+            document.getElementById("jupiter").style.display = "none";
+            document.getElementById("saturn").style.display = "none";
+            document.getElementById("uranus").style.display = "none";
+            document.getElementById("neptune").style.display = "none";
         }
 
      </script>
  </head>
  <body>
  <div id="slideshow-container">
-     <div id="bigimages" onclick="hidePics()">
+     <div id="bigimages">
          <img src="https://peopel-su.github.io/ist263/images/mecury.jpg" alt="mercury" id="mercury">
          <img src="https://peopel-su.github.io/ist263/images/venus.jpg" alt="venus" id="venus">
          <img src="https://peopel-su.github.io/ist263/images/earth.jpg" alt="earth" id="earth">
@@ -39,7 +46,7 @@
          <img src="https://peopel-su.github.io/ist263/images/jupiter.jpg" alt="jupiter" id="jupiter">
          <img src="https://peopel-su.github.io/ist263/images/saturn.jpg" alt="saturn" id="saturn">
          <img src="https://peopel-su.github.io/ist263/images/uranus.jpg" alt="uranus" id="uranus">
-         <img src="https://peopel-su.github.io/ist263/images/neptune.jpg" alt="neptune" id="neptune">
+         <img src="https://peopel-su.github.io/ist263/images/neptune.jpg" alt="neptune" id="neptune" onclick="hidePics()">
      </div>
      <div id="planetinfo">        
          <h1>Planets Slideshow</h1>
