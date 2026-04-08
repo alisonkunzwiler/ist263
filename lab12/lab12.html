@@ -46,7 +46,10 @@
             document.getElementById("neptuneinfo").style.display = "none";
 
         }
-        window.onload = hideText;
+       window.onload = function() {
+        hidePics();
+        hideText();
+       };
 
      </script>
  </head> 
