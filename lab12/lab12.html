@@ -35,11 +35,15 @@
         }
 
         window.onload = hidePics;
+
+        function hideText() {
+            document.getElementById("mercuryinfo").style.display = "block";           , document.getElementById("venusinfo", "earthinfo", "marsinfo", "jupiterinfo", "saturninfo", "uranusinfo", "neptuneinfo").style.display = "none";
+        }
      </script>
- </head>
+ </head> 
  <body>
  <div id="slideshow-container">
-     <div id="bigimages">
+     <div id="bigimages"> 
          <img src="https://peopel-su.github.io/ist263/images/mecury.jpg" alt="mercury" id="mercury">
          <img src="https://peopel-su.github.io/ist263/images/venus.jpg" alt="venus" id="venus">
          <img src="https://peopel-su.github.io/ist263/images/earth.jpg" alt="earth" id="earth">
