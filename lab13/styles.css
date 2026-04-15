@@ -13,7 +13,7 @@
     h1 {font-size: 3em; color: #f7c297}
     h2 {font-size: 2em; color: #f7c297}
     a {color: #f6a6b2;}
-    nav {background-color: #b7ded2; padding: 2em; margin-bottom: 30px;}
+    nav {background-color: #b7ded2; padding: 2em; margin-bottom: .5em;}
     nav a{color: #fceee9;}
     nav a:hover {background-color: #e3e4e6;}
     .evenrow {background-color: cadetblue}
@@ -24,6 +24,8 @@
     .box2 {display: flex; flex-wrap: wrap; background-color: white; padding: 1em; margin: .5em; border-radius: 1em;}
     .fb2 {margin-left: 2em;}
     .fb4 {margin-left: 2em;}
+
+    .skip {position: absolute; left: -999px; top: auto; width: 1px; height: 1px; overflow: hidden;}
 
     @media only screen and (max-width: 550px) {nav a
         {display: block; width: 100%; padding: 1em;}
