@@ -7,15 +7,15 @@
    
     <style>
     body {font-family: Garamond, serif;}
-    body {background-color: #ffecb8; padding: 1em;}
-    p {color: #90d2d8;}
-    li {color: #90d2d8;}
-    h1 {font-size: 3em; color: #f7c297}
-    h2 {font-size: 2em; color: #f7c297}
-    a {color: #f6a6b2;}
-    nav {background-color: #b7ded2; padding: 2em; margin-bottom: .5em;}
+    body {background-color: #fff5da; padding: 1em;}
+    p {color: #52b8c1;}
+    li {color: #52b8c1;}
+    h1 {font-size: 3em; color: #fca760}
+    h2 {font-size: 2em; color: #fca760}
+    a {color: #de6477;}
+    nav {background-color: #87cab6; padding: 2em; margin-bottom: .5em;}
     nav a{color: #fceee9;}
-    nav a:hover {background-color: #e3e4e6;}
+    nav a:hover {background-color: #a8a8a8;}
     .evenrow {background-color: cadetblue}
     .quote {float: right;}
     .img1 {max-width: 100%; float: left; margin: 0 1em 1em 0;}
