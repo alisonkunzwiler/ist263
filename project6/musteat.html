@@ -13,25 +13,24 @@
     <style>
 
             @media only screen and (max-width: 600px) {
-            body {background-color: white;}
+            body {background-color: white;
 
-            .bannersmall {display:block;}
-            .banner {display: none;}
+        .bannersmall {display:block;}
+        .banner {display: none;}
 
-            .row1, .row2, .row3, .row4, .row5, .row6 {
-                flex-wrap: wrap;
-            }
-
-            .row1 article,
-            .row2 article,
-            .row3 article,
-            .row4 article,
-            .row5 article,
-            .row6 article {
-                flex: 0 0 48%;   /* 2 per row */
-            }
+        .row1, .row2, .row3, .row4, .row5, .row6 {
+            flex-wrap: wrap;
         }
 
+        .row1 .art1, .row1 .art2, .row1 .art3, .row1 .art4,
+        .row2 .art5, .row2 .art6, .row2 .art7, .row2 .art8,
+        .row3 .art9, .row3 .art10, .row3 .art11, .row3 .art12,
+        .row4 .art13, .row4 .art14, .row4 .art15, .row4 .art16,
+        .row5 .art17, .row5 .art18,
+        .row6 .art19, .row6 .art20, .row6 .art21, .row6 .art22 {
+            flex: 0 0 48%;
+        }
+    }   
 
         nav {background-color: #fceee9; padding: 2em; margin-bottom: 30px;}
 
