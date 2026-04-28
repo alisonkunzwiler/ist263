@@ -15,13 +15,42 @@
             {background-color: white;}
             .bannersmall {display:block;}
             .banner {display: none;}
+                .row1,
+            .row2,
+            .row3,
+            .row4,
+            .row5,
+            .row6 {
+              flex-direction: column;
+          }
+
+           .row1 article,
+            .row2 article,
+            .row3 article,
+            .row4 article,
+            .row5 article,
+            .row6 article {
+                width: 100%;
+                flex: none;
             }
+        }
+
+        .row1, .row2, .row3, .row4, .row5, .row6 {
+            display: flex;
+        }
 
             h1, h2,h3 {
                 font-family: "Sekuya", system-ui;
                 font-weight: 400;
                 font-style: normal;
          }
+
+            p {
+  font-family: "Vollkorn", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
           
          nav {background-color: #fceee9; padding: 2em; margin-bottom: 30px;}
 
@@ -69,7 +98,7 @@
     <nav>
         <a href="projectindex.html">Home</a> |
         <a href="mustdo.html">Must Do / See</a> |
-        <a href="musteat.html">Must Eat</a> |
+        <a href="musteat.html">Must Eat</a> 
     </nav>
 
     <h1>Must Do / See</h1>
