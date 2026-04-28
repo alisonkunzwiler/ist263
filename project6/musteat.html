@@ -11,48 +11,39 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sekuya&display=swap" rel="stylesheet">
 
-    <style>
+    <style>         
 
-.row1, .row2, .row3, .row4, .row5, .row6 {
-    display: flex;
-}
-
-.art1, .art2, .art3, .art4,
-.art5, .art6, .art7, .art8,
-.art9, .art10, .art11, .art12,
-.art13, .art14, .art15, .art16,
-.art17, .art18, .art19, .art20,
-.art21, .art22 {
-    flex: 1;
-}            
-
-@media only screen and (max-width: 600px) {body
+            @media only screen and (max-width: 600px) {body
             {background-color: white;}
             .bannersmall {display:block;}
             .banner {display: none;}
+                .row1,
+            .row2,
+            .row3,
+            .row4,
+            .row5,
+            .row6 {
+              flex-direction: column;
+          }
+
+           .row1 article,
+            .row2 article,
+            .row3 article,
+            .row4 article,
+            .row5 article,
+            .row6 article {
+                width: 100%;
+                flex: none;
             }
+        }
+
+        .row1, .row2, .row3, .row4, .row5, .row6 {
+            display: flex;
+        }
 
             nav {background-color: #fceee9; padding: 2em; margin-bottom: 30px;}
 
-    .row1,
-    .row2,
-    .row3,
-    .row4,
-    .row5,
-    .row6 {
-        flex-direction: column;
-    }
 
-    .row1 article,
-    .row2 article,
-    .row3 article,
-    .row4 article,
-    .row5 article,
-    .row6 article {
-        width: 100%;
-        flex: none;
-    }
-}
         .row1 {display: flex;}
         .row1 img {width: 100%; height: auto; border-radius: 1em;}
         .art1 {flex: 1; order: 1; background-color: #cce5ff; border-radius: 1em; margin: .5em; padding: .3em;}
